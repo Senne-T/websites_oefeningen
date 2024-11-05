@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/les05-oef02.css" />
+  </head>
+  <body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+      <div>
+        <label for="voornaam">Voornaam:</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="voornaam"
+          id="voornaam"
+          placeholder="Voornaam"
+        />
+      </div>
+
+      <div>
+        <label for="familienaam">Familienaam:</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="familienaam"
+          id="familenaam"
+          placeholder="Familienaam"
+        />
+      </div>
+
+      <div>
+        <label for="gebruikersnaam">Gebruikersnaam:</label>
+      </div>
+      <div>
+        <input
+          type="email"
+          name="gebruikersnaam"
+          id="gebruikersnaam"
+          placeholder="Gebruikersnaam"
+        />
+      </div>
+
+      <div>
+        <label for="nickname">Nickname:</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="nickname"
+          id="nickname"
+          placeholder="Nickname"
+          required
+          minlength="5"
+          maxlength="15"
+        />
+      </div>
+
+      <div>
+        <label for="wachtwoord">Wachtwoord:</label>
+      </div>
+      <div>
+        <input
+          type="password"
+          name="wachtwoord"
+          id="wachtwoord"
+          placeholder="Wachtwoord"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="herhaalWachtwoord">Herhaal wachtwoord:</label>
+      </div>
+      <div>
+        <input
+          type="password"
+          name="herhaalwachtwoord"
+          id="herhaalwachtwoord"
+          placeholder="Herhaal wachtwoord"
+          required
+        />
+      </div>
+      <div>
+        <input type="submit" value="Registreren" class="submitInput">
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+    height: 50px;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+.celGroen {
+    background-color: lightgreen;
+}
+
+.celGroen {
+    background-color: red;
+}

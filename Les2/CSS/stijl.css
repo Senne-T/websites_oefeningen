@@ -1,0 +1,39 @@
+body {
+    font-family:Arial, sans-serif;
+}
+.section {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+#sectie1 {
+    background-color: #e6a2a2;
+    color: #600;
+}
+#sectie2 {
+    background-color: #a2c4e6;
+    color: #004080;
+}
+#sectie3 {
+    background-color: #a2e6c4;
+    color: #00663d;
+}
+.monospace {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.schreef {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.schreefloos {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  

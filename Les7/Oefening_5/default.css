@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    padding: 5px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.navigator {
+    float: left;
+    width: 30%;
+    height: 500px;
+    background-color: lightgray;
+}
+
+.navigator>p {
+    margin: 5px;
+}
+
+.content {
+    float: left;
+    width: 70%;
+    height: 500px;
+}
+
+.footer {
+    float:left;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.bridge  {
+    margin: 0px;
+    padding: 0px;
+}

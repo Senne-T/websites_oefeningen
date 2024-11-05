@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    width: 50%;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    box-shadow: 5px 5px lightgray;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.submitInput {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}

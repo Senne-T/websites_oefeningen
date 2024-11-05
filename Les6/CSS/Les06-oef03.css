@@ -1,0 +1,64 @@
+body {
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container>div {
+    flex-grow: 1;
+    text-align: center;
+    padding: 40px;
+    height: 200px;
+    margin: 10px;
+}
+
+.header1 {
+    background-color: aqua;
+}
+
+.header2 {
+    background-color: rgb(225, 0, 255);
+}
+
+.header3 {
+    background-color: rgb(84, 202, 11);
+}
+
+.body1 {
+    background-color: rgb(255, 225, 0);
+}
+
+.body2 {
+    background-color: rgb(255, 47, 0);
+}
+
+.body3 {
+    background-color: rgb(139, 47, 110);
+}
+
+.body4 {
+    background-color: rgb(150, 190, 153);
+}
+
+.footer1 {
+    background-color: rgb(14, 37, 186);
+}
+
+.footer2 {
+    background-color: rgb(179, 179, 48);
+}
+
+.menu1 {
+    background-color: rgb(14, 178, 181);
+}
+
+.menu2 {
+    background-color: rgb(14, 181, 39);
+}
+
+.menu3 {
+    background-color: rgb(181, 14, 153);
+}

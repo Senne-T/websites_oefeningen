@@ -1,0 +1,27 @@
+.style-hr {
+  height: 1px;
+  background-color: darkblue;
+  width: 100%;
+}
+
+#tabel {
+  border-collapse: collapse;
+  border: solid 1px grey;
+}
+
+#tabel th {
+  border: solid 1px grey;
+  padding: 15px;
+  color: white;
+  background-color: black;
+}
+
+#tabel td {
+  border: solid 1px grey;
+  padding: 15px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+}

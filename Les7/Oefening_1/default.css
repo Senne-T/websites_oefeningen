@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  background-color: blue;
+  color: white;
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+}
